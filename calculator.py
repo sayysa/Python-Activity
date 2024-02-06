@@ -57,7 +57,8 @@ def calculate():
     else:
         print("\nInvalid Choice. Select 1-5 only.")
         calculate()
-
+        print("test push")
+        
 def main():
     global num1, num2
     print("\nBasic Calculator")
@@ -67,3 +68,4 @@ def main():
     calculate()
 
 main()
+
